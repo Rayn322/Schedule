@@ -13,7 +13,7 @@ export function getCurrentPeriod(): Period {
 
   return (
     currentPeriod || {
-      name: 'After School',
+      name: 'Break probably',
       start: {
         hour: 2,
         minute: 50

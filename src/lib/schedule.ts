@@ -127,6 +127,18 @@ export const schedule: Schedule = {
         hour: 14,
         minute: 50
       }
+    },
+
+    {
+      name: 'No School',
+      start: {
+        hour: 14,
+        minute: 50
+      },
+      end: {
+        hour: 31,
+        minute: 45
+      }
     }
   ]
 };
