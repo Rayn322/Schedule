@@ -1,14 +1,8 @@
 <script lang="ts">
-  // the $lib alias throws an error help
-  // @ts-expect-error
   import { getCurrentPeriod } from '$lib/timer';
-  // @ts-expect-error
   import type { Period } from '$lib/schedule';
-  // @ts-expect-error
   import { formatCountdown } from '$lib/util/formatter';
-  // @ts-expect-error
   import { getTimeLeft } from '$lib/timer';
-  // @ts-expect-error
   import type { TimeLeft } from '$lib/timer';
 
   let currentPeriod: Period;
