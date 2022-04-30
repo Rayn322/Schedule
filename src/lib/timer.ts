@@ -13,14 +13,14 @@ export function getCurrentPeriod(): Period {
 
   return (
     currentPeriod || {
-      name: 'Break probably',
+      name: 'Something went wrong',
       start: {
-        hour: 2,
-        minute: 50
+        hour: 0,
+        minute: 0
       },
       end: {
-        hour: 31,
-        minute: 45
+        hour: 24,
+        minute: 0
       }
     }
   );
