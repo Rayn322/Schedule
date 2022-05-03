@@ -1,9 +1,9 @@
-import { type Period, schedule } from './schedule';
+import { type Period, scheduleList, type Schedule } from './schedule';
 
 export function getCurrentPeriod(): Period {
   let currentPeriod;
 
-  schedule.regular.every((period) => {
+  getCurrentSchedule().every((period) => {
     if (isCurrentPeriod(period)) {
       currentPeriod = period;
       return false;
@@ -44,6 +44,19 @@ function isCurrentPeriod(period: Period) {
   );
 
   return now >= start && now <= end;
+}
+
+function getCurrentSchedule(): Schedule {
+  const now = new Date();
+  const day = now.getDay();
+
+  if (day === 3) {
+    return scheduleList.block1;
+  } else if (day === 4) {
+    return scheduleList.block2;
+  } else {
+    return scheduleList.regular;
+  }
 }
 
 export interface TimeLeft {

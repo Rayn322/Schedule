@@ -29,7 +29,37 @@
 
 <main>
   {#if currentPeriod}
-    <p>{currentPeriod.name}</p>
-    <p>It ends in {formatCountdown(hoursLeft, minutesLeft, secondsLeft)}.</p>
+    <div class="container">
+      <p class="period">{currentPeriod.name}</p>
+      <p class="time">It ends in {formatCountdown(hoursLeft, minutesLeft, secondsLeft)}.</p>
+    </div>
   {/if}
 </main>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+  :root {
+    background-color: rgb(32, 32, 32);
+    color: rgb(236, 236, 236);
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+
+  .period {
+    font-size: 3.5rem;
+    font-weight: 600;
+  }
+
+  .time {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+</style>
