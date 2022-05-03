@@ -56,10 +56,12 @@
   .period {
     font-size: 3.5rem;
     font-weight: 600;
+    text-align: center;
   }
 
   .time {
     font-size: 2rem;
     font-weight: 400;
+    text-align: center;
   }
 </style>
