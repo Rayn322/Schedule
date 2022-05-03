@@ -31,7 +31,7 @@
   {#if currentPeriod}
     <div class="container">
       <p class="period">{currentPeriod.name}</p>
-      <p class="time">It ends in {formatCountdown(hoursLeft, minutesLeft, secondsLeft)}.</p>
+      <p class="time">Ends in {formatCountdown(hoursLeft, minutesLeft, secondsLeft)}.</p>
     </div>
   {/if}
 </main>
