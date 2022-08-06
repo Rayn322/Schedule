@@ -8,20 +8,20 @@ export const block2: Schedule = [
       minute: 0
     },
     end: {
-      hour: 7,
-      minute: 45
+      hour: 8,
+      minute: 30
     }
   },
 
   {
     name: '1st Period',
     start: {
-      hour: 7,
-      minute: 45
+      hour: 8,
+      minute: 30
     },
     end: {
       hour: 9,
-      minute: 5
+      minute: 51
     }
   },
 
@@ -29,11 +29,11 @@ export const block2: Schedule = [
     name: 'Passing Period',
     start: {
       hour: 9,
-      minute: 5
+      minute: 51
     },
     end: {
       hour: 9,
-      minute: 12
+      minute: 58
     }
   },
 
@@ -41,35 +41,35 @@ export const block2: Schedule = [
     name: 'Tutorial',
     start: {
       hour: 9,
-      minute: 12
+      minute: 58
     },
     end: {
-      hour: 9,
-      minute: 42
+      hour: 10,
+      minute: 29
     }
   },
 
   {
     name: 'Break',
     start: {
-      hour: 9,
-      minute: 42
+      hour: 10,
+      minute: 29
     },
     end: {
-      hour: 9,
-      minute: 54
+      hour: 10,
+      minute: 46
     }
   },
 
   {
     name: 'Passing Period',
     start: {
-      hour: 9,
-      minute: 54
+      hour: 10,
+      minute: 46
     },
     end: {
       hour: 10,
-      minute: 1
+      minute: 53
     }
   },
 
@@ -77,79 +77,79 @@ export const block2: Schedule = [
     name: '3rd Period',
     start: {
       hour: 10,
-      minute: 1
+      minute: 53
     },
     end: {
-      hour: 11,
-      minute: 21
+      hour: 12,
+      minute: 14
     }
   },
 
   {
     name: 'Passing Period',
     start: {
-      hour: 11,
-      minute: 21
+      hour: 12,
+      minute: 14
     },
     end: {
-      hour: 11,
-      minute: 28
+      hour: 12,
+      minute: 21
     }
   },
 
   {
     name: '5th Period',
     start: {
-      hour: 11,
-      minute: 28
+      hour: 12,
+      minute: 21
     },
     end: {
-      hour: 12,
-      minute: 48
+      hour: 13,
+      minute: 42
     }
   },
 
   {
     name: 'Lunch',
     start: {
-      hour: 12,
-      minute: 48
+      hour: 13,
+      minute: 42
     },
     end: {
-      hour: 13,
-      minute: 23
+      hour: 14,
+      minute: 17
     }
   },
 
   {
     name: 'Passing Period',
     start: {
-      hour: 13,
-      minute: 23
+      hour: 14,
+      minute: 17
     },
     end: {
-      hour: 13,
-      minute: 30
+      hour: 14,
+      minute: 24
     }
   },
 
   {
     name: '7th Period',
     start: {
-      hour: 13,
-      minute: 30
+      hour: 14,
+      minute: 24
     },
     end: {
-      hour: 14,
-      minute: 50
+      hour: 15,
+      minute: 45
     }
   },
 
   {
     name: 'After School',
     start: {
-      hour: 14,
-      minute: 50
+      hour: 15,
+      minute: 45
     },
     end: {
       hour: 31,

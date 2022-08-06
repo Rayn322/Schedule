@@ -8,20 +8,20 @@ export const block1: Schedule = [
       minute: 0
     },
     end: {
-      hour: 7,
-      minute: 45
+      hour: 8,
+      minute: 30
     }
   },
 
   {
     name: '2nd Period',
     start: {
-      hour: 7,
-      minute: 45
+      hour: 8,
+      minute: 30
     },
     end: {
       hour: 9,
-      minute: 5
+      minute: 50
     }
   },
 
@@ -29,11 +29,11 @@ export const block1: Schedule = [
     name: 'Passing Period',
     start: {
       hour: 9,
-      minute: 5
+      minute: 50
     },
     end: {
       hour: 9,
-      minute: 12
+      minute: 57
     }
   },
 
@@ -41,35 +41,35 @@ export const block1: Schedule = [
     name: 'Tutorial',
     start: {
       hour: 9,
-      minute: 12
+      minute: 57
     },
     end: {
-      hour: 9,
-      minute: 42
+      hour: 10,
+      minute: 26
     }
   },
 
   {
     name: 'Break',
     start: {
-      hour: 9,
-      minute: 42
+      hour: 10,
+      minute: 26
     },
     end: {
-      hour: 9,
-      minute: 54
+      hour: 10,
+      minute: 36
     }
   },
 
   {
     name: 'Passing Period',
     start: {
-      hour: 9,
-      minute: 54
+      hour: 10,
+      minute: 36
     },
     end: {
       hour: 10,
-      minute: 1
+      minute: 43
     }
   },
 
@@ -77,43 +77,43 @@ export const block1: Schedule = [
     name: '4th Period',
     start: {
       hour: 10,
-      minute: 1
+      minute: 43
     },
     end: {
-      hour: 11,
-      minute: 21
+      hour: 12,
+      minute: 3
     }
   },
 
   {
     name: 'Passing Period',
     start: {
-      hour: 11,
-      minute: 21
+      hour: 12,
+      minute: 3
     },
     end: {
-      hour: 11,
-      minute: 28
+      hour: 12,
+      minute: 10
     }
   },
 
   {
     name: '6th Period',
     start: {
-      hour: 11,
-      minute: 28
+      hour: 12,
+      minute: 10
     },
     end: {
-      hour: 12,
-      minute: 48
+      hour: 1,
+      minute: 30
     }
   },
 
   {
     name: 'After School',
     start: {
-      hour: 12,
-      minute: 48
+      hour: 1,
+      minute: 30
     },
     end: {
       hour: 31,

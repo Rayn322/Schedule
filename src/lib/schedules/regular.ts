@@ -8,152 +8,152 @@ export const regular: Schedule = [
       minute: 0
     },
     end: {
-      hour: 7,
-      minute: 45
+      hour: 8,
+      minute: 30
     }
   },
 
   {
     name: '1st Period',
     start: {
-      hour: 7,
-      minute: 45
+      hour: 8,
+      minute: 30
     },
     end: {
-      hour: 8,
-      minute: 34
+      hour: 9,
+      minute: 20
     }
   },
 
   {
     name: 'Passing Period',
     start: {
-      hour: 8,
-      minute: 34
+      hour: 9,
+      minute: 20
     },
     end: {
-      hour: 8,
-      minute: 41
+      hour: 9,
+      minute: 27
     }
   },
 
   {
     name: '2nd Period',
     start: {
-      hour: 8,
-      minute: 41
+      hour: 9,
+      minute: 27
     },
     end: {
-      hour: 9,
-      minute: 32
+      hour: 10,
+      minute: 19
     }
   },
 
   {
     name: 'Passing Period',
     start: {
-      hour: 9,
-      minute: 32
+      hour: 10,
+      minute: 19
     },
     end: {
-      hour: 9,
-      minute: 39
+      hour: 10,
+      minute: 26
     }
   },
 
   {
     name: '3rd Period',
     start: {
-      hour: 9,
-      minute: 39
+      hour: 10,
+      minute: 26
     },
     end: {
-      hour: 10,
-      minute: 28
+      hour: 11,
+      minute: 16
     }
   },
 
   {
     name: 'Break',
     start: {
-      hour: 10,
-      minute: 28
+      hour: 11,
+      minute: 16
     },
     end: {
-      hour: 10,
-      minute: 35
+      hour: 11,
+      minute: 26
     }
   },
 
   {
     name: 'Passing Period',
     start: {
-      hour: 10,
-      minute: 35
+      hour: 11,
+      minute: 26
     },
     end: {
-      hour: 10,
-      minute: 42
+      hour: 11,
+      minute: 33
     }
   },
 
   {
     name: '4th Period',
     start: {
-      hour: 10,
-      minute: 42
+      hour: 11,
+      minute: 33
     },
     end: {
-      hour: 11,
-      minute: 31
+      hour: 12,
+      minute: 23
     }
   },
 
   {
     name: 'Passing Period',
     start: {
-      hour: 11,
-      minute: 31
+      hour: 12,
+      minute: 23
     },
     end: {
-      hour: 11,
-      minute: 38
+      hour: 12,
+      minute: 30
     }
   },
 
   {
     name: '5th Period',
     start: {
-      hour: 11,
-      minute: 38
+      hour: 12,
+      minute: 30
     },
     end: {
-      hour: 12,
-      minute: 27
+      hour: 13,
+      minute: 20
     }
   },
 
   {
     name: 'Lunch',
     start: {
-      hour: 12,
-      minute: 27
+      hour: 13,
+      minute: 20
     },
     end: {
-      hour: 12,
-      minute: 58
+      hour: 13,
+      minute: 51
     }
   },
 
   {
     name: 'Passing Period',
     start: {
-      hour: 12,
-      minute: 58
+      hour: 13,
+      minute: 51
     },
     end: {
       hour: 13,
-      minute: 5
+      minute: 58
     }
   },
 
@@ -161,23 +161,23 @@ export const regular: Schedule = [
     name: '6th Period',
     start: {
       hour: 13,
-      minute: 5
+      minute: 58
     },
     end: {
-      hour: 13,
-      minute: 54
+      hour: 14,
+      minute: 48
     }
   },
 
   {
     name: 'Passing Period',
     start: {
-      hour: 13,
-      minute: 54
+      hour: 14,
+      minute: 48
     },
     end: {
       hour: 14,
-      minute: 1
+      minute: 55
     }
   },
 
@@ -185,19 +185,19 @@ export const regular: Schedule = [
     name: '7th Period',
     start: {
       hour: 14,
-      minute: 1
+      minute: 55
     },
     end: {
-      hour: 14,
-      minute: 50
+      hour: 15,
+      minute: 45
     }
   },
 
   {
     name: 'After School',
     start: {
-      hour: 14,
-      minute: 50
+      hour: 15,
+      minute: 45
     },
     end: {
       hour: 31,
