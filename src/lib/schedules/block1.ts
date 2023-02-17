@@ -116,8 +116,8 @@ export const block1: Schedule = [
       minute: 30
     },
     end: {
-      hour: 31,
-      minute: 45
+      hour: 32,
+      minute: 30
     }
   }
 ];

@@ -200,8 +200,8 @@ export const regular: Schedule = [
       minute: 45
     },
     end: {
-      hour: 31,
-      minute: 45
+      hour: 32,
+      minute: 30
     }
   }
 ];
